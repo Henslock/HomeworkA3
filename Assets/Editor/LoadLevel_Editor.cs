@@ -3,6 +3,12 @@ using UnityEditor;
 
 public class LoadLevel_Editor : EditorWindow
 {
+    /*
+    Excel Level Assignment - This script reads the CSV file and places collision blocks ONLY so that we can generate a NavMesh.
+
+    Josh Bellyk - 100526009
+    Owen Meier  - 100538643    
+    */
     string levelFileName = "File Name...";
     int xOffset, yOffset = 0;
     TextAsset navLevel;

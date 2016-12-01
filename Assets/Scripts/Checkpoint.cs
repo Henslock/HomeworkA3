@@ -3,6 +3,14 @@ using System.Collections;
 
 public class Checkpoint : MonoBehaviour
 {
+
+    /*
+    Excel Level Assignment - A checkpoint for when players die. It also has a flashy spinning effect, woo!
+
+    Josh Bellyk - 100526009
+    Owen Meier  - 100538643    
+    */
+
     private float speed = 100.0f;
     private bool active, flashyspinning = false;
 

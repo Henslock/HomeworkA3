@@ -5,6 +5,13 @@ using System.IO;
 
 public class LevelLoader : MonoBehaviour {
 
+    /*
+    Excel Level Assignment - This script reads the CSV file and places blocks based on numeric value 
+
+    Josh Bellyk - 100526009
+    Owen Meier  - 100538643    
+    */
+
     public string FileName = "LevelFile";
     private TextAsset Levelcsv;
     public GameObject[] blocks;

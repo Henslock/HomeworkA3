@@ -3,6 +3,12 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+    /*
+    Excel Level Assignment - Player control script that includes basic movement and jumping. Also manages checkpoints, death, and spawning.
+
+    Josh Bellyk - 100526009
+    Owen Meier  - 100538643    
+    */
     [System.Serializable]
     public class PlayerMovement
     {
